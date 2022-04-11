@@ -5,6 +5,8 @@ import 'dart:math';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_map/flutter_map.dart';
 import 'package:flutter_map/plugin_api.dart';
+import 'package:flutter_map_tappable_polyline/custom_polyline_painter.dart'
+    as custom_polyline_painter;
 import 'package:latlong2/latlong.dart';
 import 'package:positioned_tap_detector_2/positioned_tap_detector_2.dart';
 
@@ -158,7 +160,8 @@ class TappablePolylineLayer extends StatelessWidget {
                 children: [
                   for (final polylineOpt in polylineOpts.polylines)
                     CustomPaint(
-                      painter: PolylinePainter(polylineOpt),
+                      painter:
+                          custom_polyline_painter.PolylinePainter(polylineOpt),
                       size: size,
                     ),
                 ],
