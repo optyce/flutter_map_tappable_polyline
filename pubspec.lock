@@ -47,7 +47,7 @@ packages:
       name: flutter_map
       url: "https://unpub.optyce.eu"
     source: hosted
-    version: "0.14.0"
+    version: "0.14.1"
   http:
     dependency: transitive
     description:
@@ -131,7 +131,7 @@ packages:
       name: positioned_tap_detector_2
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.0.0"
+    version: "1.0.4"
   proj4dart:
     dependency: transitive
     description:
