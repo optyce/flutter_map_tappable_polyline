@@ -1,3 +1,6 @@
+## 3.5.0
+- Upgrade `flutter_map` to 0.15.1
+
 ## 3.1.0
 - Upgrade `flutter_map` to 0.14.0
 

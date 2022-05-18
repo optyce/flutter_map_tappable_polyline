@@ -21,7 +21,7 @@ class CustomPolylineLayerWidget extends StatelessWidget {
 class PolylineLayer extends StatelessWidget {
   final PolylineLayerOptions polylineOpts;
   final MapState map;
-  final Stream<Null>? stream;
+  final Stream<void>? stream;
 
   PolylineLayer(this.polylineOpts, this.map, this.stream)
       : super(key: polylineOpts.key);
